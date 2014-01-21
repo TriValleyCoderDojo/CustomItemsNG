@@ -1,0 +1,7 @@
+name: CustomItemsNG
+main: org.freitas.customitems.CustomItemsNG
+version: 1.0.0
+commands:
+    ci:
+      description: Main command.
+      usage: /ci help

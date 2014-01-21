@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="CustomItemsNG" basedir="." default="help">
+	
+	<property file="build.properties" />
+	
+	<path id="classpath.src">
+		<pathelement location="${classes.dir}" />
+	</path>
+	
+	<path id="jars.all">
+		<fileset dir="${thirdparty.libs}" casesensitive="yes">
+			<include name="**/*.jar"/>
+		</fileset>
+	</path>
+	
+	<target name="clean">
+		<echo>Cleaning the previous files</echo>
+		<delete verbose = "true" dir = "${dist.dir}" />
+	</target>
+	
+	<target name="compile" depends="clean">
+		<echo>Compiling the source code</echo>
+		<mkdir dir = "${classes.dir}" />
+		<copy file="plugin.yml" todir="${classes.dir}" />
+		<javac srcdir="src" destdir="${classes.dir}" debug="true" >
+			<classpath refid="jars.all"/>
+		</javac>
+			
+	</target>
+	
+	<target name="package" depends="clean,compile">
+		<echo>Packaging the JAR</echo>
+		<mkdir dir = "${dist.dir}" />
+		<jar destfile="${dist.dir}/${ant.project.name}.jar" 
+			basedir="${classes.dir}" />
+	</target>
+	
+	<target name="all" depends="clean,compile,package" 
+		description="Clean work dirs, then compile and create a JAR"/>
+	
+	
+	<target name="help">
+		<echo>You can use the following targets:</echo>
+		<echo> </echo>
+		<echo>  help    : (default) Prints this message </echo>
+		<echo>  all     : Cleans, compiles, and packages the JAR</echo>
+		<echo>  clean   : Deletes work directories</echo>
+		<echo>  compile : Compiles source code into class files</echo>
+		<echo>  package : Packages artifacts into a deployable JAR</echo>
+		<echo></echo>
+	</target>
+	
+</project>
