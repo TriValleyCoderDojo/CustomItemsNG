@@ -17,19 +17,19 @@ Commands:
 /ci help
 
 Abilities: 
-Lightning - Strikes lighting from the sky.
-SuperFortune - This is like enchant fortune but 3x more powerfull.
-Death - Instantly kills the target.
-SuperHit - Hit is 3x bigger.
-Break - Breaks any block instantly. (except Bedrock)
-Teleport - Teleports to target location.
-Poison - Poisons the target.
-Disorient - Disorients the target.
-Explosion - Creates explosion when you click or hit something.
-LifeSteal - Converts damage to life.
-Blind - Blinds the target.
-Fire - Sets clicked block to fire / Sets hit target to fire.
-Throw - Throws the target entity up in the air to fall to their death.
+- Lightning Strikes lighting from the sky.
+- SuperFortune - This is like enchant fortune but 3x more powerfull.
+- Death - Instantly kills the target.
+- SuperHit - Hit is 3x bigger.
+- Break - Breaks any block instantly. (except Bedrock)
+- Teleport - Teleports to target location.
+- Poison - Poisons the target.
+- Disorient - Disorients the target.
+- Explosion - Creates explosion when you click or hit something.
+- LifeSteal - Converts damage to life.
+- Blind - Blinds the target.
+- Fire - Sets clicked block to fire / Sets hit target to fire.
+- Throw - Throws the target entity up in the air to fall to their death.
 
 Supported Projectiles: 
 Bow, Egg, Snowball
