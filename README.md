@@ -17,7 +17,7 @@ Commands:
 /ci help
 
 Abilities: 
-- Lightning Strikes lighting from the sky.
+- Lightning - Strikes lighting from the sky.
 - SuperFortune - This is like enchant fortune but 3x more powerfull.
 - Death - Instantly kills the target.
 - SuperHit - Hit is 3x bigger.
