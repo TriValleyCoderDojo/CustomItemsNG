@@ -9,12 +9,12 @@ http://dev.bukkit.org/bukkit-plugins/custom-items/.  However, there were
 some changes made.
 
 Commands: 
--/ci create <item name> <player> Gives custom item to the player
+- /ci create <item name> <player> Gives custom item to the player
                                 (defaults to current).
--/ci list                        Shows list of defined items.
--/ci info                        Shows info about item in hand.
--/ci reload                      Reloads config and items.
--/ci help
+- /ci list                        Shows list of defined items.
+- /ci info                        Shows info about item in hand.
+- /ci reload                      Reloads config and items.
+- /ci help
 
 Abilities: 
 - Lightning - Strikes lighting from the sky.
