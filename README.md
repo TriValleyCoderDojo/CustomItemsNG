@@ -33,12 +33,12 @@ Abilities:
 
 Supported Projectiles: 
 
-Bow, Egg, Snowball
+&nbsp;&nbsp;&nbsp;&nbsp;Bow, Egg, Snowball
 and each can be used with abilities Teleport, Lightning and Explosion
 
 Item Configuration:
 
-Very similar to the original with some slight changes.  Look at the examples in items.yml
+&nbsp;&nbsp;&nbsp;&nbsp;Very similar to the original with some slight changes.  Look at the examples in items.yml
 
 Changes:
 - Added a list command
