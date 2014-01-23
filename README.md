@@ -8,7 +8,7 @@ The CustomItemsNG was based upon the original CustomItems done by Jakub1221,
 http://dev.bukkit.org/bukkit-plugins/custom-items/.  However, there were
 some changes made.
 
-If you are new to writting Bukkit plugins, this is the advanced part of a Bukkit plugin tutorial at [Ouch Plugin](http://www.lopakalogic.com/articles/minecraft-articles/minecraft-bukkit-plugins/)
+If you are new to writting Bukkit plugins, this is the advanced section of a Bukkit plugin tutorial at [Ouch Plugin](http://www.lopakalogic.com/articles/minecraft-articles/minecraft-bukkit-plugins/)
 
 Commands: 
 - /ci create <item name> <player> - Gives custom item to the player
